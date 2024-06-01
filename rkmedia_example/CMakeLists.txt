@@ -22,3 +22,5 @@ add_executable(vi_vo_test
         ${CMAKE_CURRENT_SOURCE_DIR}/common/sample_common_isp.c)
 
 target_link_libraries(vi_vo_test easymedia ${RKAIQ_LIBRARY})
+
+install(TARGETS vi_vo_test DESTINATION bin)

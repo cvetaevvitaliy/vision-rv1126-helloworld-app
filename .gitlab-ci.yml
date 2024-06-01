@@ -1,0 +1,21 @@
+stages:
+  - build
+
+build-job:
+  stage: build
+  script:
+    - echo "Compiling the project ..."
+    # SDK and toolchain are prepared in the directory /opt/vision-sdk/
+    - source /opt/vision-sdk/environment-setup
+    - mkdir build
+    - cd build
+    - cmake -DCMAKE_INSTALL_PREFIX=../artifacts ..
+    - make
+    - make install
+    - echo "Compile complete."
+    - cd ..
+
+  artifacts:
+      paths:
+        - artifacts/bin/*
+        - build/*
