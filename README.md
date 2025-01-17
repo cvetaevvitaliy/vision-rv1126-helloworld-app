@@ -1,4 +1,4 @@
-# vision-services
+# Vision RV1126 helloworld app
 
 ### How to manually build
 
