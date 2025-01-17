@@ -5,7 +5,7 @@
 Download SDK and install depends  
 
 Link for download SDK:
-https://gitlab.hard-tech.org.ua/external/vision-rv1126-helloworld-app/uploads/ae99f5e0ad7f241999a00bcd6ba93606/vision-sdk.tar.gz
+[https://gitlab.hard-tech.org.ua/external/vision-rv1126-helloworld-app/uploads/ae99f5e0ad7f241999a00bcd6ba93606/vision-sdk.tar.gz](https://github.com/cvetaevvitaliy/vision-rv1126-helloworld-app/releases/download/1.0.0/vision-sdk.tar.gz)
 
 ```sh
 sudo apt update
